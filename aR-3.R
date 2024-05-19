@@ -11,7 +11,7 @@ if (!requireNamespace("dplyr", quietly = TRUE)) {
 }
 
 # Read the CSV file
-file_path <- "/Users/saiteja/Downloads/Demographics.csv"  # Update this with the correct file path
+file_path <- "/Users/nagaraju/Downloads/Demographics.csv"  # Update this with the correct file path
 if (!file.exists(file_path)) {
   stop("File 'demographics.csv' not found. Please provide the correct file path.")
 } else {
